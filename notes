@@ -1,0 +1,5 @@
+<p> is block element
+<div> is also block line element
+ <span>is inline element   
+    this three are couple tags
+    <br> is self closing tags
