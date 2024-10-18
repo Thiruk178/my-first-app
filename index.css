@@ -1,0 +1,46 @@
+.wrapper
+{
+    margin: 100px 50px 100px 50px;
+    border:  double black 10px; /*solid dotted dashed double*/
+    padding: 25px;
+    background-color: bisque;
+    text-align:justify;
+}   
+
+.lg{
+    background-image: linear-gradient(to right,red,blue,yellow,pink);
+}
+.rg{
+    background-image: radial-gradient(red, yellow, green);}
+    .cg{
+        background-image: conic-gradient(red, yellow, green);
+    }
+.position-static{
+    position: static;
+    border: 5px solid blue;
+}
+.position-relative{
+    position: relative;
+    border:  solid;
+
+    
+    top: 25px;
+    
+    
+}
+.position-absolute{
+    position: absolute;
+    border: 2px solid black;
+    top: 50px;
+}
+.position-fixed{
+    position:fixed;
+    top: 0px;
+    left:0px
+}
+.position-sticky{
+    position: sticky;
+    top: 150px;
+    background-color: brown;
+    border: 5px rgb(34, 23, 16);
+}
