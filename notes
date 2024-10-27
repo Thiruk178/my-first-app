@@ -1,0 +1,13 @@
+FLEX CONTAINER
+  1. flex-direction
+  2.flex-wrap
+  3.flex-flow
+  4.justify-content,space-between,space-around,center,row front,row end.
+  5.align-items , top,bottom,center
+  flex=one dimensional
+  
+GRID CONTAINER
+ 1.grid-templete-coloum
+ grid=multi dimensional
+ 2.justify-content,space-evenly,space-between,space-around,center,start,end.
+ 3.align-content-property:,space-evenly,space-between,space-around,center,start,end.
