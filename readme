@@ -1,0 +1,8 @@
+1.npm init
+2.npm i tailwindcss
+3.npx tailwindcss init
+4.add input directives
+5.add content:["./src/**/*.{html,js}"],in config.cs
+6.add "dev":"npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build":"npx tailwindcss -i ./src/input.css -o ./src/output.css" in package.json
+7.npm run dev in terminal

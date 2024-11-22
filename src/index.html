@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <div class="columns-4 bg-slate-600">
+        <h1 >1</h1>
+        <h1 class="break-after-column"  >2</h1>
+        <h1 >3</h1>
+        <h1 >4</h1>
+        <h1 >5</h1>
+        <h1 >6</h1>
+        <h1 >7</h1>
+        <h1 >8</h1>
+        <h1 >9</h1>
+    </div>
+    <div class=" container columns-3">
+        <div class="box-border h-60 w-48 p-4 border-4 break-after-column">
+        <p>welcome to box-border-height and width is inclusive for border,content,padding</p>
+    </div>
+    <div class="box-content h-60 w-48 p-4 border-4  break-after-column">
+        <p>welcome to box-content - height and width is inclusive only for content.border and padding is addtional</p>
+    </div>
+    <div class="box-border h-60 w-48 p-4 border-4 hover:box-content break-after-column">
+        <p>box border normally change to box content on hover</p>
+    </div>
+    </div>
+
+ 
+     <div class="container">
+        <div class="relative h-24 w-auto bg-green-300">
+            <div class="absolute bg-green-800 top-5 left-10">
+            this is absolutecontainer
+        </div>
+    </div>
+
+
+     <div class="relative">
+        <img src="../assets/msd.jpg" alt="" class="z-10 absolute left-40">
+        <img src="../assets/msd.jpg" alt="" class="z-20 absolute left-96">
+        <img src="../assets/msd.jpg" alt="" class="z-30 absolute left-[540px]">
+    </div>
+    </div>
+
+</body>  
+</html> 
